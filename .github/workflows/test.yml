@@ -16,5 +16,5 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
           architecture: x64
-      - name: Run the Maven verify phase
+      - name: Run the Maven verify phase project
         run: mvn -Dtest=JUnitTodo test
